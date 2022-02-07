@@ -228,5 +228,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvulkan
 
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+#  Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 -include $(LOCAL_PATH)/properties/product_prop.mk
 -include $(LOCAL_PATH)/properties/system_prop.mk
